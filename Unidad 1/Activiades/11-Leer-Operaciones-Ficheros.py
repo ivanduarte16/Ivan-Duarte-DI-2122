@@ -9,6 +9,7 @@ division = lambda x, y: x / y
 
 with open("test.txt", "r") as fichero:
     for linea in fichero:
+        linea = linea.strip()
         separado = linea.split(" ")
         if separado[1] == "+":
             resultado = suma(int(separado[0]), int(separado[2]))

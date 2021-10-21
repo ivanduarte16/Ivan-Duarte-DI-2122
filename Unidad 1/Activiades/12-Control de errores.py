@@ -42,8 +42,8 @@ with open("test.txt", "r") as fichero:
                 print(separado[0], " ", separado[1], " ", int(separado[2]), " = ", resultado)
                 break
     except NoNumerico:
-        print("Caracter no numerico")
+        print("Carácter no numérico")
     except ErrorOperacion:
-        print("Error en la operacion")
+        print("Error en la operacions")
     except OperadoresDesconocidos:
         print("Este operador no existe")
