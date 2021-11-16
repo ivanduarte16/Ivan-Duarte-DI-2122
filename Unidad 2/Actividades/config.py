@@ -1,0 +1,4 @@
+ALTURA = 600
+ANCHO = 600
+btx = 100
+bty = 50
